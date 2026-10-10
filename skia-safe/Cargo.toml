@@ -1,0 +1,7 @@
+[package]
+name = "skia-color-font-repro"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+skia-safe = { version = "=0.153.3", features = ["textlayout"] }
