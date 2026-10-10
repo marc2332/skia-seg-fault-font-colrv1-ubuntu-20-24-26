@@ -45,6 +45,6 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     println!("paragraph height: {}", paragraph.height());
     println!("emoji blob is color font or bitmap: {}", paragraph.contains_color_font_or_bitmap(&mut text_blob));
-    println!("painted paragraph with emoji without crashing");
+    println!("WORKS");
     Ok(())
 }
